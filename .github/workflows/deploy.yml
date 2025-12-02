@@ -35,7 +35,7 @@ jobs:
       - name: Build for GitHub Pages
         run: npm run build:gh-pages
         env:
-          VITE_BASE_PATH: /education-price/
+          VITE_BASE_PATH: /education-roi/
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
